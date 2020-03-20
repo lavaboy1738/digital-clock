@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(/pattern.42221bc4.png);
+}
+
+.main {
+    background-color: #ccc;
+    width: 400px;
+    height: 180px;
+    margin: 100px auto;
+    position: relative;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.badge{ 
+    width: 140px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    background-color: #e66357;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    top: -15px;
+    left: calc(50% - 70px);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+}
+
+.clock {
+    background-color: #ebebeb;
+    text-align: center;
+    height: 120px;
+    line-height: 120px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    border-radius: 10px;
+}
+
+.semicolon{
+    display: inline-block;
+    width: 20px;
+    margin: auto -15px;
+}
+
+.number {
+    display: inline-block;
+    width: 100px;
+    margin: auto
+}
+
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
